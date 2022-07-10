@@ -38,3 +38,25 @@
 <img width="110" height="260" src="https://user-images.githubusercontent.com/84269666/177967880-c781f038-f4a4-4bec-89b1-648d4d7a706a.png">
 <h2></h2>
 <hr/>
+<h2>➡ Forking / Cloning</h2>
+<li> Fork The Repository By Clicking <a href="https://github.com/HACKERPROTM/XOPPY">Here</a></li>
+<li> You Can Also Run On Your Terminal <code>git clone https://github.com/HACKERPROTM/XOPPY.git</code></li>
+<li> Install All Packages By Running <code>npm i</code> Or <code>npm install</code></li>
+<li> Start The Website By Running <code>node server.js</code> Or <code>node .</code></li>
+<li> Need Help With The Website? Join The Discussion <a href="https://github.com/HACKERPROTM/XOPPY/discussions/1">Here</a></li>
+<h2></h2>
+<hr/>
+<h2>🎓 Extras</h2>
+<li> Visit <code>XOPPY</code> By Clicking <a href="https://xoppy.glitch.me">Here</a></li>
+<li> Read The <code>Privacy Terms / PTOS</code> Of <code>XOPPY</code> Clicking <a href="https://xoppy.glitch.me/privacy">Here</a></li>
+<li> Join Our Discord Server By Clicking The Photo Below Or Clicking The Link <a href="https://discord.gg/invite/dPXTa2XERS">Here</a></li>
+<li> Follow Me On My <code>Instagram</code> By Clicking The Link <a href="https://www.instagram.com/brandon.torreglosa">Here</a></li>
+<li> Donate To Me Through <code>Ko-Fi</code> Or <code>Patreon</code> By Clicking The <code>❤ Sponsor</code> Button On Top</li>
+<br/>
+<a href="https://discord.gg/invite/dPXTa2XERS" title="Our Support / Main Server | Copyright XOPBOT.Inc">
+<img width="80%" height="auto" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord">
+</a>
+<b><p align="left">A Search Engine Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
+<h2></h2>
+<hr/>
+<h2>Make Sure To ⭐ And 🍴 The Repository 😊👍</h2>

@@ -38,6 +38,26 @@
 <img width="110" height="260" src="https://user-images.githubusercontent.com/84269666/177967880-c781f038-f4a4-4bec-89b1-648d4d7a706a.png">
 <h2></h2>
 <hr/>
+<h2>🧑‍🏭 Contributors</h2>
+<li> Our Official Contributors Of This Repository</li>
+<br/>
+<a href="https://github.com/HACKERPROTM" title="Brandon Torreglosa (HACKERPROTM)">
+<img width="150" height="150" src="https://avatars.githubusercontent.com/u/84269666?v=4">
+</a>
+&nbsp;
+<a href="https://github.com/dependabot" title="Dependabot (Github)">
+<img width="150" height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSTo_X_Y8HAE9SSvpspolAKuxBjmz1Zz9Sg&usqp=CAU">
+</a>
+<br/>
+<h2></h2>
+<hr/>
+<h2>🌟 Stargazers (1)</h2>
+<b><p>⚠️ Warning <br/> If You Wan't To Edit Or Remove Something From This Section That Includes You.<br/> You Can Easily Contact Me At My Email: <code>brandontorreglosa@gmail.com</code><br/>You Will Most Likely Get A Reply Within 2 Hours The Most. Make Sure To Say The Reason And Show Proof 🥳.<br/> We Respect Your Privacy 🔒. Don't Hesitate To Inform Us, We Don't Bite 😬</p></b>
+<a href="https://github.com/HACKERPROTM" title="Brandon Torreglosa (HACKERPROTM)">
+<img width="150" height="150" src="https://avatars.githubusercontent.com/u/84269666?s=96&v=4">
+</a>
+<h2></h2>
+<hr/>
 <h2>➡ Forking / Cloning</h2>
 <li> Fork The Repository By Clicking <a href="https://github.com/HACKERPROTM/XOPPY">Here</a></li>
 <li> You Can Also Run On Your Terminal <code>git clone https://github.com/HACKERPROTM/XOPPY.git</code></li>

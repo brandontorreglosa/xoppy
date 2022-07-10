@@ -1,0 +1,12 @@
+{
+   "name": "xoppy",
+   "version": "0.0.1-alpha",
+   "description": "A professional search engine made with Javascript HTML and CSS, supports mobile users. Inbuilt user sign in system with cookie consent and database protection. Search Google, Yahoo, Firefox and many more...",
+   "main": "server.js",
+   "repository": {"url": "https://github.com/HACKERPROTM/XOPPY"},
+   "license": "Apache-2.0",
+   "keywords": ["css","html","edge","yahoo","glitch","google","express","website","firefox","javascript","search-engine"],
+   "scripts": {"start": "node server.js"},
+   "engines": {"node": "8.x"},
+   "dependencies": {"express": "^4.18.1","express-rate-limit": "^6.4.0"}
+}

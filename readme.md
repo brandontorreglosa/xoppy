@@ -2,7 +2,7 @@
 <div align="center">
 <a href="https://xoppy.glitch.me/"><img width="80%" height="auto" src="https://user-images.githubusercontent.com/84269666/177953525-ed43f2fb-5b03-467c-bb9e-658963cb9422.png"></a>
 <h1>XOPPY</h1>
-<h3>A Professional Search Engine Made With Javascript, Css And Html</h3>
+<h3>A Professional Search Engine Made With Javascript, CSS And HTML</h3>
 </div>
 <h2></h2>
 <hr/>

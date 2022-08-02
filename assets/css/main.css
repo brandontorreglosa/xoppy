@@ -1,5 +1,7 @@
 /* XOPPY Is A Trademark Of XOPBOT.inc And XOPBOT© More At https://xopbot.glitch.me/ 🔥🔥🔥 */
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");::-webkit-scrollbar{width:4px}
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:#0c0c0c}
 ::-webkit-scrollbar-thumb{background:#000000}
 :root{--main:#ffffff;--secondary:#ff0000}
@@ -7,6 +9,7 @@
 body{top:0!important;background-color:#0c0c0c;scroll-behavior:smooth;}
 .loading{transform:translate(-50%,-50%);position:absolute;top:50%;left:50%}
 #loader img{animation:spin 1.5s infinite ease-in-out}
+#h-loader img{animation:spin 1.5s infinite ease-in-out}
 @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 div.mobile{display:none}
 div.pc{display:block}
@@ -18,7 +21,7 @@ div.warn{display:none}
 #user-view:hover .dropdown{display:block}
 #user-map-img{width:32px;height:32px;position:relative;right:0%;}
 #head{font-family:"Alfa Slab One",cursive;color:var(--secondary);font-size:40px;padding-top:26vh;text-align:center}
-.searchbar input{width:70%;height:40px;background-color:#000000;color:#ffffff;padding-left:10px;border:solid white 1.5px;border-radius:20px}
+.searchbar input{width:70%;height:40px;background-color:#000000;color:#ffffff;padding-left:10px;border:solid white 1.5px;border-radius:20px;font-family:"Kdam Thmor Pro",sans-serif;}
 div.searchbar-after input{border:none;border-bottom:solid white 1.5px;padding-left:5.5px;border-top-left-radius:10px;border-top-right-radius:10px;position:relative;font-family:"Kdam Thmor Pro",sans-serif;width:99.2%;height:40px;background-color:#000000;color:#ffffff}
 #suggestions{position:relative;top:35.5%;;width:70.15%;height:auto;background-color:#000000;color:#ffffff;border:solid white 1.5px;border-radius:2px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;text-align:left}
 #suggestions a{padding:5px;font-family:"Kdam Thmor Pro",sans-serif;font-size:16px}
@@ -84,3 +87,9 @@ div.s-eng a{position:relative;padding-left:5px;top:3px}
 #alert{display:none}
 div.followers k{text-align:center;width:50px;height:20px;background-color:#ffffff;font-family:"Kdam Thmor Pro",sans-serif}
 div.followers s{text-decoration:none;padding-right:4px}
+div.new-voicesch{text-align:center;align-items:center;justify-content:center;padding-top:4vh;}
+div.new-voicesch-head{color:#ff0000;font-size:22px;font-family: "Poppins", sans-serif;font-weight:bolder;}
+div.voice-search{width:50%;height:45px;background-color:#000000;position:relative;left:25%;border-radius:20px;}
+#voice-sch{position:relative;float:left;left:0%;padding-left:10px;background:transparent;height:38.5px;width:72%;border:none;color:#ffffff;font-family: "Kdam Thmor Pro", sans-serif;font-weight:bolder;}
+img.voice-img-sch{width:25px;height:25px;position:relative;color:#ff0000;padding:9.5px 3.5px 0px 0px;float:right;}
+*:focus{outline:none;}

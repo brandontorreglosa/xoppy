@@ -11,4 +11,5 @@ app.use((req, res, next) => {
 app.use(express.static("assets"));
 app.use(express.static("redirects"));
 app.get("/", function(request, response) { response.sendFile(__dirname + "/index.html"); });
+app.get("*", function(req, res) { res.sendFile(__dirname + "/redirects/404/"); });
 var listener = app.listen(process.env.PORT, function() { console.log("Your app is listening on port " + listener.address().port); });

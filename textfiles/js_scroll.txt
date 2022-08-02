@@ -1,0 +1,17 @@
+The block option decides where the element will be vertically aligned inside the visible area of its scrollable ancestor:
+Using {block: "start"}, the element is aligned at the top of its ancestor.
+Using {block: "center"}, the element is aligned at the middle of its ancestor.
+Using {block: "end"}, the element is aligned at the bottom of its ancestor.
+Using {block: "nearest"}, the element:
+is aligned at the top of its ancestor if you're currently below it.
+is aligned at the bottom of its ancestor if you're currently above it.
+stays put, if it's already in view.
+The inline option decides where the element will be horizontally aligned inside the visible area of its scrollable ancestor:
+Using {inline: "start"}, the element is aligned at the left of its ancestor.
+Using {inline: "center"}, the element is aligned at the centre of its ancestor.
+Using {inline: "end"}, the element is aligned at the right of its ancestor.
+Using {inline: "nearest"}, the element:
+is aligned at the left of its ancestor if you're currently on its right.
+is aligned at the right of its ancestor if you're currently on its left.
+stays put, if it's already in view.
+Both block and inline can be used at the same time to scroll to a specified point in one motion.

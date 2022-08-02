@@ -1,0 +1,5 @@
+function setCookie(cname,cvalue,exdays){const d=new Date();d.setTime(d.getTime()+exdays*24*60*60*1000);let expires="expires="+d.toUTCString();document.cookie=cname+"="+cvalue+";"+expires+";path=/";}
+function getCookie(cname){let name=cname+"=";let decodedCookie=decodeURIComponent(document.cookie);let ca=decodedCookie.split(";");for(let i=0;i<ca.length;i++){let c=ca[i];while(c.charAt(0)==" "){c=c.substring(1);}
+if(c.indexOf(name)==0){return c.substring(name.length,c.length);}}
+return"";}
+function loadData(){var img=getCookie("image");var user=getCookie("username");if(img !=""){document.getElementById("user-image").src=img;document.getElementById("user-image").title=user;document.getElementById("user-image").alt=user;document.getElementById("link").href="/login";document.getElementById("guest-link").href="/?already-logged-in";}else{document.getElementById("user-image").title="Sign in";document.getElementById("guest-link").href="/home?logged-in-with-guest-pfp";};};document.getElementById("h-content").style.display="none";setTimeout(() =>{document.getElementById("h-loader").style.display="none";document.getElementById("h-content").style.display="block";}, 3000);

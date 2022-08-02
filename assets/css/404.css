@@ -1,0 +1,14 @@
+/* XOPPY Is A Trademark Of XOPBOT.inc And XOPBOT© More At https://xopbot.glitch.me/ 🔥🔥🔥 */
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@media screen and (min-width:400px) and (max-width:500px){div.content{position:relative;top:23%;}}
+@media screen and (min-width:351px) and (max-width:399px){div.content{position:relative;top:24.5%;}}
+@media screen and (min-width:300px) and (max-width:350px){div.content{position:relative;top:25%;}}
+body{background-color:#0c0c0c;background-image: url('https://cdn.wallpapersafari.com/7/80/gCWHKN.gif');background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}
+div.box-404{position:absolute;top:10%;left:15%;width:70%;height:80%;background-color:#000000;font-family: "Poppins", sans-serif;border-radius:5px;text-align:center;}
+div.box-404-head{font-size:18vw;line-height: 1.2em;color:#ff0000;font-weight:bolder;}
+div.box-404-desc{font-size:2.3vw;line-height:0em;color:#ffffff;font-family: "Poppins", sans-serif;font-weight:bold;}
+p.box-404-paragraph{position:relative;left:20%;top:4.5%;font-size:1.5vw;width:60%;color:#ffffff;font-family: "Kdam Thmor Pro", sans-serif;}
+div.error-btns{padding-top:4vh;}
+div.error-btns button{position:relative;left:1%;font-size:1.1vw;background:transparent;color:#ffffff;padding:11.5px;padding-left:30px;padding-right:30px;border-radius:30px;border: 2px solid #ff0000;font-family: "Kdam Thmor Pro", sans-serif;width:80%;}
+div.error-btns button:hover{background-color:#ff0000;}

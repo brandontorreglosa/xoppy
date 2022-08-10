@@ -24,10 +24,11 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "8.x"
+    "node": "16.x"
   },
   "dependencies": {
     "express": "^4.18.1",
-    "express-rate-limit": "^6.5.1"
+    "express-rate-limit": "^6.5.1",
+    "discord.js": "12.5.3"
   }
 }

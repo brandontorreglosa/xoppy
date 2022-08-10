@@ -20,7 +20,30 @@ div.vid-setup .controls{position:absolute;left:2.5%;top:96%;color:#ffffff;font-s
 #prevplay-4{position:relative;left:-13.8%;top:-14%;color:#ffffff;font-size: 18px;}
 #prevcon-4{position:relative;right:-17.98%;top:-14%;color:#ffffff;font-size: 18px;}
 #prevfull-1, #prevplay-1, #prevcon-1, #prevfull-2, #prevplay-2, #prevcon-2, #prevfull-3, #prevplay-3, #prevcon-3, #prevfull-4, #prevplay-4, #prevcon-4{display:none;}
-#vid{display:none}
-#vid1{display:none}
-#vid2{display:none}
-#vid3{display:none}
+#vid, #vid1, #vid2, #vid3{display:none}
+div.video-player{position:absolute;width:60%;height:71%;}
+#video-pl{width:100%;height:100%;position:relative;border-radius:10px;}
+div.video-suggestions{background-color:#000000;position:absolute;height:70.65%;width:36%;right:1.7%;border-radius:10px;border:2px solid #000000;}
+p.v-text-s{text-align:center;color:#ff0000;font-family: "Kdam Thmor Pro", sans-serif;font-size:17px;font-weight:bold;}
+div.v-suggestions{color:#ffffff;font-family: "Kdam Thmor Pro", sans-serif;height:69%;overflow:auto;}
+div.v-s-v{padding-top:1vh;position:relative;width:100%;height:auto;}
+div.v-s-v:hover{background-color: grey;}
+div.v-s-v img{width:150px;height:90px;padding-left:2px;}
+a.v-s-desc{font-size:17px;margin-right:17%;float:right;}
+a.v-s-desc-help{font-size:17px;margin-right:31.7%;float:right;}
+a.v-s-desc-help1{font-size:17px;margin-right:6.5%;float:right;}
+a.v-s-author{font-size:15px;margin-left:35%;float:left;margin-top:-13%;color: green;}
+div.comment{padding-top:12px;padding-left:10px;position:relative;width:100%;display:flex;overflow:auto;}
+div.comment-video input{width:210px;background:transparent;color:#ffffff;height:30px;padding-left:10px;border-radius:15px;}
+*{outline:none;}
+img.comment-user{height:30px;width:30px;padding-right:10px;margin-top:1%;}
+div.comment-options{padding-left:13px;padding-top:5px;display:flex;gap:13px;}
+div.l-opt{height:30px;width:90px;background-color:white;border-radius:10px;}
+div.l-opt i{font-size:21px;color:#ff0000;margin-top:5.1px;margin-left:5px;}
+div.l-opt a{font-size:21px;color:#000000;margin-left:10px;}
+div.video-announcments{position:absolute;bottom:2%;left:2.8%;display:flex;height:16%;width:97.2%;gap:1rem;overflow:auto;padding-bottom:5px;}
+div.acn-box{height:100px;width:200px;background-color:#ff0000;border-radius:10px;color:#ffffff;}
+div.acn-box:hover{background-color:#000000;}
+p.acn-head{font-size:17px;font-family:"Poppins",sans-serif;position:relative;top:-5%;left:3%;}
+p.acn-head:hover{color:green;}
+p.acn-desc{font-size:15px;font-family:"Kdam Thmor Pro",sans-serif;position:relative;width:100%;height:35px;top:-15%;left:3%;overflow:auto;}

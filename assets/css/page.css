@@ -1,0 +1,16 @@
+/* XOPPY Is A Trademark Of XOPBOT.inc And XOPBOT© More At https://xopbot.glitch.me/ 🔥🔥🔥 */
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+div.alert{position:absolute;width:70%;height:70%;background:#ffffff;color:#000000;border-radius:15px;left:15%;top:15%;border: 2px solid white;}
+div.alert:hover{background:#0c0c0c;color:#ffffff;}
+div.alert p{position:relative;width:100%;height:7.5%;font-size:30px;margin-left:15px;margin-right:15px;color:#ff0000;font-family:"Alfa Slab One",cursive;margin-top:10px;}
+div.a-desc{height:70%;overflow:auto;position:absolute;padding-left:15px;padding-right:15px;font-family:"Kdam Thmor Pro",cursive;}
+div.alert a{position:relative;font-size:25px;}
+div.a-btn{position:absolute;width:100%;height:7.5%;bottom:3%;}
+div.a-btn button{width:180px;height:auto;padding:5px;background-color:#ffffff;color:#ff0000;border-radius:10px;border:1.5px solid red;font-size:17px;font-family: "Alfa Slab One",cursive;}
+div.services{position:absolute;width:70%;left:15%;right:15%;display:flex;top:17%;gap:2rem;}
+div.service{position:relative;text-align:center;width:300px;height:200px;border:1.5px solid white;border-radius:15px;font-size:50px;color:#ff0000;font-family: "Alfa Slab One",cursive;background-color:#ffffff;}
+div.service p{margin-top:65px;}
+div.a-desc::-webkit-scrollbar{width:6px;}
+div.a-desc::-webkit-scrollbar-track{background:#ffffff;}
+div.a-desc::-webkit-scrollbar-thumb{background:#ff0000;border-radius:15px;}

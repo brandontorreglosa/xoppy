@@ -4,3 +4,4 @@
 @media screen and (max-width:10000px) and (min-width:1801px){#r-activity{display:none}#r-head{display:none}div.content{display:none}div.warn{display:block}#pra{display:none}#bru{display:none}}
 @media screen and (max-width:1339px){div.pc{display:block}div.content{display:none}#r-activity{display:none}#r-head{display:none}div.warn{display:block}#pra{display:none}#bru{display:none}div.s-engines a{display:none}}
 @media screen and (max-width:324px){div.pc{display:none}div.mobile{display:block}div.warn{display:none}}
+@media screen and (max-width:399px){div.welcome-txt{font-size:30px;}}

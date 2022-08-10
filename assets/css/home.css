@@ -1,6 +1,9 @@
 /* XOPPY Is A Trademark Of XOPBOT.inc And XOPBOT© More At https://xopbot.glitch.me/ 🔥🔥🔥 */
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://xoppy.glitch.me/css/main.css');
+div.welcome-txt{position:absolute;top:8%;width:100%;right:0%;left:0%;text-align:center;font-size:40px;color:#ffffff;font-family: "Kdam Thmor Pro",sans-serif;animation: fade ease 1.5s;}
+a.opt-w-txt{color:#ff0000;}
 div.select{position:fixed;top:0%;left:10%;right:10%;width:80%;}
 p.t-head{position:relative;padding-top:6rem;text-align:center;font-size: 25px;color:#ffffff;font-family: 'Kdam Thmor Pro', sans-serif;font-weight:bold;}
 div.profiles{display:flex;padding-top:5rem;}
@@ -12,3 +15,12 @@ a.guest-text{position:absolute;margin-left:-50px;right:26%;font-size:25px;color:
 img.user-img{width:140px;height:140px;border-radius:50%;}
 img.user-img:hover{box-shadow: 0 5px 12px 0 red, -0 -5px 12px -0 red;}
 a.user-text{position:absolute;margin-right:-50px;left:30%;font-size:25px;color:#ffffff;font-family: 'Alpha Slab One', sans-serif;font-weight:bold;}
+div.admin-toolbox{position:absolute;background-color:#ffffff;height:30px;width:110px;bottom:12px;right:12px;border-radius:15px;font-size:20px;color:black;animation:fade ease 1.5s;display:none;}
+div.admin-toolbox:hover{box-shadow: 0 3px 5px 0 #ffffff, -0 -3px 5px 0 #ffffff;}
+div.admin-toolbox i{margin-left:3px;margin-top:2.5px;}
+div.admin-toolbox a{position:absolute;margin-left:5px;padding-top:2.5px;}
+div.admin-tools{position:absolute;right:-2px;bottom:50px;background:#ffffff;width:200px;height:200px;overflow-y:scroll;z-index:20;animation:fade ease 0.8s;font-size:20px;font-family: "Roboto Serif",sans-serif;border-radius:10px;display:none;animation:fade ease 1s;}
+li.flex-itm{position:relative;display:flex;height:50px;width:100%;color:#000000;}
+li.flex-itm:hover{background-color:lightgrey;}
+li.flex-itm i{font-size:30px;margin-top:10px;margin-left:8px;}
+li.flex-itm p{margin-left:10.5px;margin-top:12.5px;}

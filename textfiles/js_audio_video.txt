@@ -63,3 +63,4 @@ suspend	Fires when the browser is intentionally not getting media data
 timeupdate	Fires when the current playback position has changed
 volumechange	Fires when the volume has been changed
 waiting	Fires when the video stops because it needs to buffer the next frame
+https://s-tech04.github.io/Custom-Video-Player/

@@ -14,15 +14,15 @@
 <h2></h2>
 <hr/>
 <h2>📰 Information</h2>
-<li>You Can Search With Google, Yahoo, Edge And Even Firefox</li>
-<li>60% Of The Website Runs Through Javascript</li>
+<li><a href="https://xoppy.glitch.me/search">Search</a> Google, Yahoo, Edge And Even Firefox</li>
+<li>70% Of The Website Runs Through Javascript</li>
 <li>24/7 Hosting Website With SSL Protection</li>
-<li>Contains A Sign Up System</li>
+<li>Contains A <a href="https://xoppy.glitch.me/signup">Sign Up</a> / <a href="https://xoppy.glitch.me/login">Login</a> System</li>
 <h2></h2>
 <hr/>
 <h2>❓ How To Sign Up</h2>
 <li>Visit https://xoppy.glitch.me/search</li>
-<li>Go To The User Icon / Top-Right Side Of The Website </li>
+<li>Go To The User Icon / Top-Right Side Of The Webpage </li>
 <li>Hover Your Mouse On The Element (Computer) Or Click (Mobile)</li>
 <li>Once Hovered Select The Options To Setup Your Profile</li>
 <li>After Selected You Will Get Prompted To Enter That Option</li>

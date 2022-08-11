@@ -21,10 +21,13 @@
 <h2></h2>
 <hr/>
 <h2>❓ How To Sign Up</h2>
-<li>Visit https://xoppy.glitch.me/search</li>
+<li>Visit https://xoppy.glitch.me/signup</li>
+<li>Fill Out The Form To Continue To The Homepage</li>
+<li>Once Redirected On The Homepage Click Your Icon</li>
+<li>Then Visit https://xoppy.glitch.me/search</li>
 <li>Go To The User Icon / Top-Right Side Of The Webpage </li>
 <li>Hover Your Mouse On The Element (Computer) Or Click (Mobile)</li>
-<li>Once Hovered Select The Options To Setup Your Profile</li>
+<li>Once Hovered Select The Option To Setup Your Profile Icon</li>
 <li>After Selected You Will Get Prompted To Enter That Option</li>
 <li>When You Have Submitted, Reload The Page To See Your Data</li>
 <li>Once Reloaded, Visit https://xoppy.glitch.me/</li>

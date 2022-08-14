@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:#0c0c0c}
-::-webkit-scrollbar-thumb{background:#000000}
+::-webkit-scrollbar-thumb{background:#000000;border-radius:15px;}
 :root{--main:#ffffff;--secondary:#ff0000}
 ::-webkit-scrollbar:hover{width:8px}
 body{top:0!important;background-color:#0c0c0c;scroll-behavior:smooth;}

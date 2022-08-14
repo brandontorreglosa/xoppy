@@ -2,6 +2,7 @@ function setCookie(cname,cvalue,exdays){const d=new Date();d.setTime(d.getTime()
 function getCookie(cname){let name=cname+"=";let decodedCookie=decodeURIComponent(document.cookie);let ca=decodedCookie.split(";");for(let i=0;i<ca.length;i++){let c=ca[i];while(c.charAt(0)==" "){c=c.substring(1);}
 if(c.indexOf(name)==0){return c.substring(name.length,c.length);}}
 return"";}
+// HOME JAVASCRIPT //
 function loadData(){var img=getCookie("image");var user=getCookie("username");if(img !=""){document.getElementById("user-image").src=img;document.getElementById("user-image").title=user;document.getElementById("user-image").alt=user;document.getElementById("link").href="/login";document.getElementById("guest-link").href="/?already-logged-in";document.querySelector('.opt-w-opt').innerHTML="Hello";document.querySelector('.opt-w-txt').innerHTML=user;}else{document.getElementById("user-image").title="Sign in";document.getElementById("guest-link").href="/home?logged-in-with-guest-pfp";document.querySelector('.opt-w-opt').innerHTML="Welcome To";document.querySelector('.opt-w-txt').innerHTML="XOPPY";};};
 // LOADING JAVASCRIPT //
 document.querySelector(".h-content").style.display="none";setTimeout(() =>{document.querySelector(".h-loader").style.display="none";document.querySelector(".h-content").style.display="block";}, 3000);

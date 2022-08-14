@@ -5,3 +5,5 @@
 @media screen and (max-width:1339px){div.pc{display:block}div.content{display:none}#r-activity{display:none}#r-head{display:none}div.warn{display:block}#pra{display:none}#bru{display:none}div.s-engines a{display:none}}
 @media screen and (max-width:324px){div.pc{display:none}div.mobile{display:block}div.warn{display:none}}
 @media screen and (max-width:399px){div.welcome-txt{font-size:30px;}}
+@media screen and (min-width:600px) and (max-width:999px){div.signup-box{width:50%;left:25%;right:25%;}div.login-box{width:50%;left:25%;right:25%;}}
+@media screen and (max-width:599px){div.signup-box{width:70%;left:15%;right:15%;}div.login-box{width:70%;left:15%;right:15%;}}

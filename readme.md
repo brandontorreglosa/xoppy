@@ -1,7 +1,7 @@
-<h1 align="left">Proffessional Website (XOPPY)</h1>
+<h1 align="left">Website (XOPPY)</h1>
 <div align="center">
-<a href="https://xoppy.glitch.me/"><img width="80%" height="auto" src="https://cdn.glitch.global/ac6ce8b5-e8be-433b-9662-6c271f9b5de7/xoppy_banner.png?v=1659904302423"></a>
-<h1>XOPPY</h1>
+<a title="XOPPY"><video width="80%" height="auto" src="https://user-images.githubusercontent.com/84269666/192027018-d2d90027-8188-45bd-b2e1-8c5a7a975799.mp4"></video></a>
+<h1><a href="https://xoppy.glitch.me/">XOPPY</a></h1>
 <h3>"We Build The Future"</h3>
 </div>
 <h2></h2>

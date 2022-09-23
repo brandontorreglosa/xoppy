@@ -1,8 +1,8 @@
-<h1 align="left">Search Engine (XOPPY)</h1>
+<h1 align="left">Proffessional Website (XOPPY)</h1>
 <div align="center">
-<a href="https://xoppy.glitch.me/"><img width="80%" height="auto" src="https://user-images.githubusercontent.com/84269666/177953525-ed43f2fb-5b03-467c-bb9e-658963cb9422.png"></a>
+<a href="https://xoppy.glitch.me/"><img width="80%" height="auto" src="https://cdn.glitch.global/ac6ce8b5-e8be-433b-9662-6c271f9b5de7/xoppy_banner.png?v=1659904302423"></a>
 <h1>XOPPY</h1>
-<h3>A Professional Search Engine Made With Javascript, CSS And HTML</h3>
+<h3>"We Build The Future"</h3>
 </div>
 <h2></h2>
 <hr/>
@@ -14,28 +14,25 @@
 <h2></h2>
 <hr/>
 <h2>📰 Information</h2>
-<li>You Can Search With Google, Yahoo, Edge And Even Firefox</li>
-<li>60% Of The Website Runs Through Javascript</li>
+<li><a href="https://xoppy.glitch.me/search">Search</a> Google, Yahoo, Edge And Even Firefox</li>
+<li>70% Of The Website Runs Through Javascript</li>
 <li>24/7 Hosting Website With SSL Protection</li>
-<li>Contains A Sign Up System</li>
+<li>Contains A <a href="https://xoppy.glitch.me/signup">Sign Up</a> / <a href="https://xoppy.glitch.me/login">Login</a> System</li>
 <h2></h2>
 <hr/>
 <h2>❓ How To Sign Up</h2>
-<li>Go To The User Icon / Top-Right Side Of The Website </li>
-<br/>
-<img width="100" height="100" src="https://user-images.githubusercontent.com/84269666/177963111-9cfb048e-5f04-41f5-8273-2294995bc41a.png">
+<li>Visit https://xoppy.glitch.me/signup</li>
+<li>Fill Out The Form To Continue To The Homepage</li>
+<li>Once Redirected On The Homepage Click Your Icon</li>
+<li>Then Visit https://xoppy.glitch.me/search</li>
+<li>Go To The User Icon / Top-Right Side Of The Webpage </li>
 <li>Hover Your Mouse On The Element (Computer) Or Click (Mobile)</li>
-<br/>
-<img width="110" height="260" src="https://user-images.githubusercontent.com/84269666/177963923-632b4f87-0bbb-4766-aebd-e714a6e7adea.png">
-<li>Once Hovered Select The Options To Setup Your Profile</li>
-<br/>
-<img width="200" height="110" src="https://user-images.githubusercontent.com/84269666/177965204-3500a40e-c19e-445b-bbfe-78260193ea52.png">
+<li>Once Hovered Select The Option To Setup Your Profile Icon</li>
 <li>After Selected You Will Get Prompted To Enter That Option</li>
-<br/>
-<img width="auto" height="200" src="https://user-images.githubusercontent.com/84269666/177966018-81d63548-e02f-46e0-9a3f-86d319438f0d.png">
 <li>When You Have Submitted, Reload The Page To See Your Data</li>
-<br/>
-<img width="110" height="260" src="https://user-images.githubusercontent.com/84269666/177967880-c781f038-f4a4-4bec-89b1-648d4d7a706a.png">
+<li>Once Reloaded, Visit https://xoppy.glitch.me/</li>
+<li>Click Your Icon, And It Will Redirect You To The Login Page</li>
+<li>Make Sure To Fill Out The Whole Form So It Can Remember You When You Log Back</li>
 <h2></h2>
 <hr/>
 <h2>🧑‍🏭 Contributors</h2>
@@ -76,7 +73,7 @@
 <a href="https://discord.gg/invite/dPXTa2XERS" title="Our Support / Main Server | Copyright XOPBOT.Inc">
 <img width="80%" height="auto" src="https://discord.com/api/guilds/707557478254247936/widget.png?style=banner4" alt="Discord">
 </a>
-<b><p align="left">A Search Engine Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
+<b><p align="left">A Website Owned By <a href="https://github.com/XOPBOT-INC">XOPBOT.INC</a></p></b>
 <h2></h2>
 <hr/>
 <h2>Make Sure To ⭐ And 🍴 The Repository 😊👍</h2>

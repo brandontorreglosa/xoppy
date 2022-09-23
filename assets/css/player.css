@@ -8,12 +8,12 @@ Copyright XOPBOT 2021 - 2022 © All Rights Reserved 🔥🔥🔥
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @media screen and (max-width:999px){.theatre_mode{display:none;}}
 @media screen and (min-width:350px) and (max-width:999px){.settingsBtn{position:absolute;margin-left:6px;}.hdr_on{margin-right:20px;}}
-@media screen and (max-width:450px){.controls .icon{margin-left:5px;margin-right:5px;font-size:24px}.volume,.volume_range,.auto-play{display:none}.hdr_on{margin-right:60px;}}
+@media screen and (max-width:450px){.controls .icon{margin-left:5px;margin-right:5px;font-size:24px}.volume,.volume_range,.auto-play{display:none}.hdr_on{margin-right:95px;}}
 @media screen and (max-width:349px){.picture_in_picutre{display:none;}.settingsBtn{position:absolute;margin-left:40px;}}
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
 .material-icons{user-select:none;-webkit-user-select:none;cursor:pointer}
-.vid-container #video_player{position:absolute;width:100%;height:100%;border-radius:5px;overflow:hidden;box-shadow:0 0 5px rgba(255,255,255,0.24)}
-.vid-container #video_player #main-video{position:relative;top:0%;left:0%;right:0%;bottom:0%;width:100%;height:100%;outline:none}
+.vid-container #video_player{position:absolute;min-width:100%;min-height:100%;bottom:0%;top:0%;border-radius:5px;overflow:hidden;box-shadow:0 0 5px rgba(255,255,255,0.24)}
+.vid-container #video_player #main-video{position:fixed;top:0%;left:0%;right:0%;bottom:0%;width:100%;min-height:100%;outline:none}
 #video_player .progressAreaTime{position:absolute;left:var(--x);transform:translateX(-50%);bottom:60px;min-width:60px;text-align:center;white-space:nowrap;padding:5px 10px;color:#ffffff;font-size:14px;background:#000000;border-radius:5px;z-index:1;display:none}
 #video_player .progressAreaTime::before{content:'';position:absolute;bottom:-40%;left:50%;transform:translate(-50%,-50%) rotate(45deg);background:#000000;width:15px;height:15px;z-index:-1}
 .vid-container #video_player .controls{position:absolute;bottom:0;left:0;height:50px;width:100%;background:rgb(0 0 0 / 71%);box-shadow:0 0 40px 10px rgb(0 0 0 / 25%);z-index:3;transform:translateY(180%);transition:0.3s}
@@ -50,7 +50,7 @@ div.opt-opt-ch i{position:absolute;font-size:20px;margin-left:150px;margin-top:1
 div.opt-opt-ch{font-size:15px;color:#ffffff;padding-left:10px;height:48px;display:flex;}
 div.opt-opt-ch p{padding-top:12px;}
 div.opt-opt-ch:hover{background:rgba(28,28,28,0.9)}
-#video_player #options{position:absolute;right:25px;bottom:62px;background:rgb(28 28 28 / 90%);width:200px;height:auto;color:#ffffff;overflow-y:scroll;z-index:20;animation:fade ease 1s;display:none;}
+#video_player #options{position:absolute;right:25px;bottom:62px;background:rgb(28 28 28 / 90%);width:200px;height:auto;color:#ffffff;z-index:20;animation:fade ease 1s;display:none;}
 #video_player #options.active{display:block}
 div.opt-b-ar{color:#ffffff;display:flex;height:48px;}
 div.opt-b-ar:hover{background:rgba(28,28,28,0.9)}
@@ -64,9 +64,11 @@ div.opt-b-ar p{font-size:15px;margin-top:12px;position:relative;margin-left:40px
 #video_player #quality .playback ul li.active::before{content:'\e876';font-family:"Material Icons";position:absolute;left:7px;top:50%;transform:translateY(-50%);padding-right:10px;font-size:18px}
 i.hdr_on{position:absolute;margin-left:180px;margin-bottom:30px;z-index:2;display:none;}
 /* Scrollbars */
-#video_player #settings::-webkit-scrollbar{width:8px;background:transparent}
+#video_player #settings::-webkit-scrollbar{width:8px;}
+#video_player #settings::-webkit-scrollbar-track{background: rgba(28,28,28,0.9);}
 #video_player #settings::-webkit-scrollbar-thumb{height:20px;border:2px solid transparent;background:rgba(83,83,83,0.9);border-radius:20px}
-#video_player #quality::-webkit-scrollbar{width:8px;background:transparent}
+#video_player #quality::-webkit-scrollbar{width:8px;}
+#video_player #quality::-webkit-scrollbar-track{background: rgba(28,28,28,0.9);}
 #video_player #quality::-webkit-scrollbar-thumb{height:20px;border:2px solid transparent;background:rgba(83,83,83,0.9);border-radius:20px}
 /* Keyframe Animations */
 @keyframes fade{0%{opacity:0;}100%{opacity:1;}}

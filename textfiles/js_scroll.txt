@@ -15,3 +15,11 @@ is aligned at the left of its ancestor if you're currently on its right.
 is aligned at the right of its ancestor if you're currently on its left.
 stays put, if it's already in view.
 Both block and inline can be used at the same time to scroll to a specified point in one motion.
+document.readyState;
+Type	Description
+String	The status of the current document:
+uninitialized - Has not started loading
+loading - Is loading
+loaded - Has been loaded
+interactive - Has loaded enough to interact with
+complete - Fully loaded

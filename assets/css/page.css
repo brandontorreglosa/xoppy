@@ -1,16 +1,53 @@
 /* XOPPY Is A Trademark Of XOPBOT.inc And XOPBOT© More At https://xopbot.glitch.me/ 🔥🔥🔥 */
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-div.alert{position:absolute;width:70%;height:70%;background:#ffffff;color:#000000;border-radius:15px;left:15%;top:15%;border: 2px solid white;}
+div.search-services{position:absolute;width:100%;left:0%;right:0%;top:8%;height:40%;display:flex;}
+p.s_head{position:absolute;font-size:25px;color:#ffffff;float:left;margin-left:30px;margin-top:90px;font-family:"Alfa Slab One",sans-serif;}
+a.s_username{position:absolute;font-size:25px;color:#ff0000;float:left;margin-left:160px;margin-top:90px;font-family:"Alfa Slab One",sans-serif;}
+div.search-services input{margin-top:136px;float:left;margin-left:20px;width:65%;height:45px;border-radius:20px;background:#000000;color:white;font-size:20px;padding-left:15px;font-family:'Poppins',sans-serif;border:none;}
+button.s_search{height:48px;padding:0px 10px 0px 10px;margin-top:134px;margin-left:-55px;background:none;border:none;font-size:25px;}
+p.a_desc{font-size:20px;}
+div.accounts{position:absolute;width:94.5%;height:auto;display:flex;top:47%;padding:5px 20px 5px 20px;gap:1rem;overflow:auto;}
+p.account_head{font-size:20px;color:#ffffff;position:absolute;top:38%;margin-left:20px;font-family:"Poppins",sans-serif;font-weight:bold;}
+div.account{min-width:10%;min-height:150px;background-color:#000000;border-radius:10px;overflow:auto;}
+div.account img{position:relative;width:40px;height:40px;border-radius:50%;margin-top:10px;}
+div.account p{color:white;font-size:18px;font-family:'Poppins',sans-serif;margin-top:-6px;}
+div.account c{position:relative;top:-7%;color:#ffffff;}
+div.account i{font-size:18px;}
+div.account button{position:relative;width:80%;height:30px;font-size:15px;background:white;color:red;font-family:"Poppins",sans-serif;border-radius:10px;bottom:1;}
+div.account button:hover{background:#ff0000;}
+i.adjust_badge_h{position:absolute;float:left;text-align:center;margin-left:42px;}
+button.adjust_btn_h{bottom:-19.5px;}
+div.account:hover{box-shadow: 0 3px 5px 0 red, 0 -3px 5px 0 red;}
+i.developer_badge{color:blue;outline:none;border:none;}
+i.verified_badge{color:green;outline:none;border:none;}
+i.staff_badge{color:orange;padding-left:2px;outline:none;border:none;}
+div.services{position:absolute;width:80%;display:flex;height:auto;left:10%;right:10%;top:70%;gap:12.5%;z-index:2;display:none;}
+div.service{position:relative;text-align:center;width:25%;height:150px;background-color:#000000;color:#ffffff;border-radius:30px;font-size:50px;font-family:'Kdam Thmor Pro',sans-serif;}
+div.service p{margin-top:30px;z-index:5;}
+div.service a{text-decoration:none;}
+div.service:hover{color:red;background-image:url('https://www.bing.com/th/id/OGC.1ccd7947ba146baf06894337fc7a660e?pid=1.7&rurl=https%3a%2f%2fwww-learnsquared-com.s3.amazonaws.com%2fcomments%2fdot.gif&ehk=FUdcMfnMZjVU%2bfTETK%2btWWdBWQUoxEIByHCfRWplnKA%3d');background-position:center;}
+div.s_footer{position:fixed;bottom:1%;font-size:14.5px;color:#ffffff;font-family:"Poppins",sans-serif;text-align:center;width:98%;left:1%;right:1%;font-weight:bold;}
+/* Alerts */
+div.alert{position:absolute;width:70%;height:70%;background:#ffffff;color:#000000;border-radius:15px;left:15%;top:15%;border: 2px solid white;display:none;}
 div.alert:hover{background:#0c0c0c;color:#ffffff;}
 div.alert p{position:relative;width:100%;height:7.5%;font-size:30px;margin-left:15px;margin-right:15px;color:#ff0000;font-family:"Alfa Slab One",cursive;margin-top:10px;}
 div.a-desc{height:70%;overflow:auto;position:absolute;padding-left:15px;padding-right:15px;font-family:"Kdam Thmor Pro",cursive;}
 div.alert a{position:relative;font-size:25px;}
 div.a-btn{position:absolute;width:100%;height:7.5%;bottom:3%;}
 div.a-btn button{width:180px;height:auto;padding:5px;background-color:#ffffff;color:#ff0000;border-radius:10px;border:1.5px solid red;font-size:17px;font-family: "Alfa Slab One",cursive;}
-div.services{position:absolute;width:70%;left:15%;right:15%;display:flex;top:17%;gap:2rem;}
-div.service{position:relative;text-align:center;width:300px;height:200px;border:1.5px solid white;border-radius:15px;font-size:50px;color:#ff0000;font-family: "Alfa Slab One",cursive;background-color:#ffffff;}
-div.service p{margin-top:65px;}
+div.widg-sectionh{position:fixed;top:65px;width:165px;max-height:250px;overflow:auto;left:18px;z-index:100;background-color:#0c0c0c;text-align:left;animation:slide ease 1s;display:none;}
+div.widg-sectionh i{font-size:22px;color:white;padding:0 0 28px 0;}
+div.widg-sectionh c{font-size:17.5px;font-family:"Poppins",sans-serif;color:white;margin:-2.3px 0 0 20px;position:absolute;}
+i.bl:hover{color:#ff0000;}
+.nav-icoh{font-size:20px;color:white;padding:2px 25px 0 5px;}
+#discord-widgeth{display:none;animation:fade ease 0.1s;}
+.discord-widgeth{position:fixed;width:70%;height:80%;left:15%;right:15%;top:10%;bottom:10%;z-index:90;}
+i.xmadh{position:fixed;top:15px;right:10px;color:white;font-size:23px;z-index:101;animation:fade ease 1s;}
+i.xmadh:hover{color:#ff0000;}
+i.dis-wh{margin-left:-3px;}
+p.not-rech{height:10px;width:auto;background:red;position:absolute;left:20px;padding:0px 5px 7px 5px;color:white;font-family:"Poppins",sans-serif;font-size:13px;border-radius:5px;margin-top:-65px;}
+/* Scrollbars */
 div.a-desc::-webkit-scrollbar{width:6px;}
 div.a-desc::-webkit-scrollbar-track{background:#ffffff;}
 div.a-desc::-webkit-scrollbar-thumb{background:#ff0000;border-radius:15px;}

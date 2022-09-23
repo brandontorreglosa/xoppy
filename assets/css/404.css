@@ -4,7 +4,7 @@
 @media screen and (min-width:400px) and (max-width:500px){div.content{position:relative;top:23%;}}
 @media screen and (min-width:351px) and (max-width:399px){div.content{position:relative;top:24.5%;}}
 @media screen and (min-width:300px) and (max-width:350px){div.content{position:relative;top:25%;}}
-body{background-color:#0c0c0c;background-image: url('https://cdn.wallpapersafari.com/7/80/gCWHKN.gif');background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}
+body{background-color:#0c0c0c;background-image: url('https://cdn.wallpapersafari.com/7/80/gCWHKN.gif');background-repeat:no-repeat;background-size:cover;background-attachment:fixed;user-select:none;}
 div.box-404{position:absolute;top:10%;left:15%;width:70%;height:80%;background-color:#000000;font-family: "Poppins", sans-serif;border-radius:5px;text-align:center;}
 div.box-404-head{font-size:18vw;line-height: 1.2em;color:#ff0000;font-weight:bolder;}
 div.box-404-desc{font-size:2.3vw;line-height:0em;color:#ffffff;font-family: "Poppins", sans-serif;font-weight:bold;}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Kdam+Thmor+Pro&family=Roboto+Serif:opsz@8..144&display=swap");
+div.box-profile{width:55%;background:#000000;position:fixed;top:10%;height:80%;left:22.5%;border-radius:20px;overflow:auto;}
+div.box-profile:hover{box-shadow:0px 3px 10px -0px white, -0px -3px 10px -0px white}
+div.box-avatar img{height:140px;width:140px;margin-top:50px;border-radius:50%;}
+div.box-username{font-size:35px;color:white;font-family:"Poppins",sans-serif;margin-top:10px;text-align:center;}
+div.box-birth{font-size:20px;color:red;font-family:"Kdam Thmor Pro",sans-serif;margin-top:-7px;text-align:center;overflow:hidden;}
+div.box-email{font-size:20px;color:grey;font-family:"Poppins",sans-serif;margin-top:-7px;text-align:center;overflow:hidden;}
+div.box-stats{display:flex;justify-content:center;padding-top:20px;gap:3rem;overflow:auto;}
+div.box-followers{font-size:20px;color:#ff0000;font-family:"Kdam THmor Pro",sans-serif;font-weight:bold;}
+div.stats-box a{font-size:18px;color:white;font-family:"Poppins",sans-serif;}
+i.box-settings{font-size:25px;color:white;position:absolute;right:20px;top:20px;}
+i.box-bars{font-size:25px;color:white;position:absolute;left:20px;top:20px;}
+button.box-btn{width:60%;margin-top:20px;height:35px;border-radius:10px;background:grey;color:white;font-size:16px;padding-top:3px;font-family:"Poppins",sans-serif;font-weight:bold;}
+div.box-socials{display:flex;justify-content:center;margin-top:20px;gap:1.5rem;overflow:auto;}
+i.fa-brands{color:#ffffff;font-size:25px;}
+i.fa-brands:hover{color:#ff0000;}
+/* Scrollbars */
+.box-socials::-webkit-scrollbar-thumb{background:grey;}
+.box-socials::-wenkit-scrollbar-track{background:#0c0c0c;border:none;}
+.box-stats::-webkit-scrollbar-thumb{background:grey;}
+.box-stats::-wenkit-scrollbar-track{background:#0c0c0c;border:none;}
